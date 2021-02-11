@@ -24,7 +24,7 @@ def uart(ser_port, num_repeat):
     # from the serial port, which eliminates the need for generating
     # randomness on board."""
     # MaskedAES.c ---> lines : 90-90
-    # The first 16 bytes considered as plaintext, and the rest 4 bytes are:
+    # The first 16 bytes considered as plaintext, and the rest 6 bytes are:
     # 1 byte: Masking state
     # 1 byte: Masking round key
     # 4 bytes for different uses like Sbox, Mixcolumn and ...
