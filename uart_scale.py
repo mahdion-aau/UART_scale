@@ -25,9 +25,9 @@ def uart(ser_port, num_repeat):
     # randomness on board."""
     # MaskedAES.c ---> lines : 90-90
     # The first 16 bytes considered as plaintext, and the rest 6 bytes are:
-    # 1 byte: Masking state
-    # 1 byte: Masking round key
-    # 4 bytes for different uses like Sbox, Mixcolumn and ...
+    # 1 byte: Masking the state
+    # 1 byte: Masking the round key
+    # 4 bytes for different uses like the Sbox,the Mixcolumn
 
     input_data_length = 16 + 6
 
